@@ -1,0 +1,37 @@
+.navigation-menu{
+  // background-color: red;
+}
+
+.main-content{
+  background-color: #121212;
+  background: linear-gradient(to bottom, #35414a, #293137, #121212);
+  border-radius: 0.4rem;
+}
+
+.container-main{
+  display: flex;
+  flex-direction: column;
+  // height: 56rem;
+}
+
+.content {
+  display: flex;
+}
+
+.column {
+  height: 55rem;
+  width: 85vh;
+  margin: 0.3rem;
+  // background-color: blueviolet;
+}
+.navigation-menu {
+  flex: 2;
+}
+
+.main-content {
+  flex: 7;
+}
+
+.row .content{
+
+}
