@@ -1,8 +1,6 @@
-# Spotify Clone
+# Spotify Clone ![Spotify Logo](./src/assets/spotify-logo.png){:height="50px" width="auto"}
 
 Este es un clon de Spotify construido con Angular.
-
-![Spotify Logo](./src/assets/spotify-logo.png)
 
 ## Capturas de Pantalla
 
