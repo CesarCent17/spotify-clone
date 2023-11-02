@@ -1,5 +1,5 @@
-| # Spotify Clone | ![Spotify Logo](./src/assets/spotify-logo.png){:height="50px" width="auto"} |
-|:------------------|:-------------------------|
+# Spotify Clone <img src="./src/assets/spotify-logo.png" alt="Spotify Logo" width="auto" height="50">
+
 
 
 Este es un clon de Spotify construido con Angular.
