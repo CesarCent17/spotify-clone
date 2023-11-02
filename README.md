@@ -1,4 +1,4 @@
-# Spotify Clone <img src="./src/assets/spotify-logo.png" alt="Spotify Logo" width="auto" height="50">
+# Spotify Clone <img src="./src/assets/spotify-logo.png" alt="Spotify Logo" width="auto" height="30">
 
 
 
