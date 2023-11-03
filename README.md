@@ -4,7 +4,7 @@
 
 Este es un clon de Spotify construido con Angular.
 
-## Capturas de Pantalla
+## Captura de Pantalla
 
 ![Captura de Pantalla 1](./src/assets/screenshot/screenshot1.png)
 
