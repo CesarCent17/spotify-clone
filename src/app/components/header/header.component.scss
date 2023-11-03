@@ -1,0 +1,52 @@
+.row{
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+}
+
+.header-button{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  background-color: #121212;
+  border-radius: 100%;
+  margin-right: 0.5rem;
+}
+
+.left-buttons {
+  margin-left: 1rem;
+  display: flex;
+  .forward{
+    background-color: rgba(18, 18, 18, 0.5);
+  }
+}
+.right-buttons {
+  margin-left: 78rem;
+  display: flex;
+  order: 1;
+  svg path{
+    transition: stroke-opacity fill-opacity transform  0.3s;
+  }
+}
+
+.header-button:hover {
+  transform: scale(1.1);
+  svg path{
+    stroke-opacity: 1;
+    fill-opacity:1;
+  }
+}
+
+.forward:hover{
+  transform: scale(1);
+  svg path{
+    stroke-opacity: 0.5;
+  }
+}
+
+.back:hover{
+  transform: scale(1);
+}
