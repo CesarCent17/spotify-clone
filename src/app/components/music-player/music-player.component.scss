@@ -6,4 +6,61 @@
   height: 7rem;
   color: white;
   background-color: black;
+  display: flex;
+  align-items: center;
+  .row{
+    height: 5rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+    justify-content: center;
+  }
+  .img-song-playing{
+    height: 3.5rem;
+    width: auto;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    cursor: pointer;
+  }
+
+  .column-one{
+    display: flex;
+    flex-direction: row;
+    flex: 2;
+    align-items: center;
+    .artist_name{
+      font-weight: 400;
+      color: #7f7f7f;
+      font-size: 0.8rem;
+    }
+    p{
+      margin-top: 0.3rem;
+      cursor: pointer;
+    }
+    svg{
+      cursor: pointer;
+    }
+  }
+
+  .column-one-element{
+    margin-right: 1rem;
+  }
+
+  .column-two{
+    flex: 6;
+
+    // background-color: rgb(105, 53, 53);
+  }
+  .column-three{
+    flex: 2;
+    // background-color: rgb(34, 3, 3);
+  }
 }
+
+
+
+
+
