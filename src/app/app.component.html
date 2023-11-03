@@ -4,7 +4,7 @@
       <app-side-navigation></app-side-navigation>
       <app-side-library></app-side-library>
     </div>
-    <div class="column main-content">
+    <div class="column main-content" [ngClass]="{'hovered-card1': isHoveredCard1, 'hovered-card2': isHoveredCard2, 'hovered-card3': isHoveredCard3, 'hovered-card4': isHoveredCard4, 'hovered-card5': isHoveredCard5, 'hovered-card6': isHoveredCard6}">
       <app-header></app-header>
       <div class="row">
         <h2 class="greeting">Good Evening!</h2>
@@ -12,15 +12,15 @@
 
       <div class="row horizontal horizontal-first">
         <img src="" alt="">
-        <app-horizontal-card class="horizontal-card" [img]="'../assets/jpg/album/fuerza_natural.jpg'" [text]="'Fuerza Natural'"></app-horizontal-card>
-        <app-horizontal-card class="horizontal-card" [img]="'../assets/jpg/artist/bizarrap.jpeg'" [text]="'Bizarrap'"></app-horizontal-card>
-        <app-horizontal-card class="horizontal-card" [img]="'../assets/jpg/album/your_likes.png'" [text]="'Your likes'"></app-horizontal-card>
+        <app-horizontal-card class="horizontal-card" (mouseenter)="isHoveredCard1 = true" (mouseleave)="isHoveredCard1 = false" [img]="'../assets/jpg/album/fuerza_natural.jpg'" [text]="'Fuerza Natural'"></app-horizontal-card>
+        <app-horizontal-card class="horizontal-card" (mouseenter)="isHoveredCard2 = true" (mouseleave)="isHoveredCard2 = false" [img]="'../assets/jpg/artist/bizarrap.jpeg'" [text]="'Bizarrap'"></app-horizontal-card>
+        <app-horizontal-card class="horizontal-card" (mouseenter)="isHoveredCard3 = true" (mouseleave)="isHoveredCard3 = false" [img]="'../assets/jpg/album/your_likes.png'" [text]="'Your likes'"></app-horizontal-card>
       </div>
 
       <div class="row horizontal">
-        <app-horizontal-card class="horizontal-card" [img]="'../assets/jpg/artist/gustavo_cerati.jpg'" [text]="'Gustavo Cerati'"></app-horizontal-card>
-        <app-horizontal-card class="horizontal-card" [img]="'../assets/jpg/artist/soda_stereo.png'" [text]="'Soda Stereo'"></app-horizontal-card>
-        <app-horizontal-card class="horizontal-card" [img]="'../assets/jpg/artist/tame_impala.jpg'" [text]="'Tame Impala'"></app-horizontal-card>
+        <app-horizontal-card class="horizontal-card" (mouseenter)="isHoveredCard4 = true" (mouseleave)="isHoveredCard4 = false" [img]="'../assets/jpg/artist/gustavo_cerati.jpg'" [text]="'Gustavo Cerati'"></app-horizontal-card>
+        <app-horizontal-card class="horizontal-card" (mouseenter)="isHoveredCard5 = true" (mouseleave)="isHoveredCard5 = false" [img]="'../assets/jpg/artist/soda_stereo.png'" [text]="'Soda Stereo'"></app-horizontal-card>
+        <app-horizontal-card class="horizontal-card" (mouseenter)="isHoveredCard6 = true" (mouseleave)="isHoveredCard6 = false" [img]="'../assets/jpg/artist/tame_impala.jpg'" [text]="'Tame Impala'"></app-horizontal-card>
       </div>
 
       <div class="row">

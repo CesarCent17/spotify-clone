@@ -3,15 +3,27 @@
 }
 
 .main-content{
-  background-color: #121212;
   background: linear-gradient(to bottom, #35414a, #121212);
   border-radius: 0.4rem;
+  // transition: opacity 0.3s;
+  // transition: all 0.2s linear;
+
+  opacity: 1;
+
 }
 
 .container-main{
   display: flex;
   flex-direction: column;
   // height: 56rem;
+}
+
+
+.main-content.hovered-card1 {
+//   background: linear-gradient(to bottom, #7597b0, #121212);
+//   transition: all 0.2s linear;
+//   transition: background 1s ease-out;
+// }
 }
 
 .content {
