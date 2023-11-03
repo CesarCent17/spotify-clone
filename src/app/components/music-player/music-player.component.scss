@@ -51,7 +51,38 @@
 
   .column-two{
     flex: 6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
+    .row-buttons{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .button-music-player{
+      margin-right: 1.5rem;
+      cursor: pointer;
+    }
+
+    .row-time{
+      margin-top: 0.7rem;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      p{
+        font-weight: 400;
+        color: #7f7f7f;
+        font-size: 0.8rem;
+        margin-left: 0.6rem;
+        margin-right: 0.6rem;
+
+      }
+      .time-song{
+        cursor: pointer;
+      }
+    }
     // background-color: rgb(105, 53, 53);
   }
   .column-three{
