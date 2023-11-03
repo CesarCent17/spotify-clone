@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-horizontal-card',
@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./horizontal-card.component.scss']
 })
 export class HorizontalCardComponent {
-
+  @Input() img: string = '';
+  @Input() text: string = '';
 }

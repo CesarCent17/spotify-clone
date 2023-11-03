@@ -1,1 +1,20 @@
-<p>square-card works!</p>
+<div class="square-card">
+
+  <div class="row">
+    <div class="column image-container" [ngStyle]="{'border-radius': circular ? '100%' : '0.5rem'}">
+      <img [src]="img" alt="">
+    </div>
+  </div>
+
+  <div class="row-text row-first">
+    <div class="column title">
+      <p>{{title}}</p>
+    </div>
+  </div>
+
+  <div class="row-text row-detail">
+    <div class="column detail">
+      <p>{{detail}}</p>
+    </div>
+  </div>
+</div>

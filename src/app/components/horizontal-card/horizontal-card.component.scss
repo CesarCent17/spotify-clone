@@ -1,0 +1,33 @@
+
+.row{
+ cursor: pointer;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ // 3d4348
+ background-color: #3d4348;
+ width: 29.8rem;
+ border-radius: 0.5rem;
+}
+
+.image-container {
+  display: inline-block;
+  overflow: hidden;
+  box-shadow: 10px 0 20px rgba(0, 0, 0, 0.2);
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+  width: 4.3rem;
+  height: 4.3rem;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+span{
+  color: white;
+  font-weight: 700;
+  margin-left: 1rem;
+}
