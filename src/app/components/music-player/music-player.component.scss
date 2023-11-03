@@ -87,7 +87,19 @@
   }
   .column-three{
     flex: 2;
-    // background-color: rgb(34, 3, 3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    margin-right: 1rem;
+    .row-column-three{
+      display: flex;
+      align-items: center;
+      .button-music-player{
+        margin-right: 1.5rem;
+        cursor: pointer;
+      }
+    }
   }
 }
 
