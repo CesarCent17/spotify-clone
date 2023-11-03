@@ -24,11 +24,57 @@
       </div>
     </div>
   </div>
-  <div class="row filter"></div>
-  <div class="row search"></div>
+  <div class="row filter">
+    <div class="column lists">
+      <button class="button-filter">Lists</button>
+    </div>
+
+    <div class="column artists">
+      <button class="button-filter">Artists</button>
+    </div>
+
+    <div class="column albums">
+      <button class="button-filter">Albums</button>
+    </div>
+  </div>
+
+  <div class="row search">
+    <div class="column column-search-svg">
+      <div class="search-svg">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M20.75 10.75C20.75 14.8921 17.3921 18.25 13.25 18.25C9.10786 18.25 5.75 14.8921 5.75 10.75C5.75 6.60786 9.10786 3.25 13.25 3.25C17.3921 3.25 20.75 6.60786 20.75 10.75ZM23.25 10.75C23.25 16.2728 18.7728 20.75 13.25 20.75C10.9391 20.75 8.8113 19.9661 7.11795 18.6498L2.88388 22.8839C2.39573 23.372 1.60427 23.372 1.11612 22.8839C0.627961 22.3957 0.627961 21.6043 1.11612 21.1161L5.35018 16.8821C4.03385 15.1887 3.25 13.0609 3.25 10.75C3.25 5.22715 7.72715 0.75 13.25 0.75C18.7728 0.75 23.25 5.22715 23.25 10.75Z" fill="white" fill-opacity="0.5"/>
+          </svg>
+      </div>
+    </div>
+
+    <div class="column column-recent">
+      <span>Recent</span>
+      <svg width="40" height="40" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M15.5 18C15.5 17.4477 15.9477 17 16.5 17H31.5C32.0523 17 32.5 17.4477 32.5 18C32.5 18.5523 32.0523 19 31.5 19H16.5C15.9477 19 15.5 18.5523 15.5 18ZM15.5 24C15.5 23.4477 15.9477 23 16.5 23H31.5C32.0523 23 32.5 23.4477 32.5 24C32.5 24.5523 32.0523 25 31.5 25H16.5C15.9477 25 15.5 24.5523 15.5 24ZM16.5 29C15.9477 29 15.5 29.4477 15.5 30C15.5 30.5523 15.9477 31 16.5 31H31.5C32.0523 31 32.5 30.5523 32.5 30C32.5 29.4477 32.0523 29 31.5 29H16.5Z" fill="white" fill-opacity="0.5"/>
+        </svg>
+    </div>
+  </div>
 
   <div class="artist-album">
-    <div class="row artist"></div>
-    <div class="row artist-album"></div>
+
+    <div class="row artist">
+      <div class="column">
+        <img class="img-artist" src="../../../assets/jpg/artist/artist_arctic_monkeys.jpeg" alt="">
+      </div>
+      <div class="column column-artist">
+        <span class="artist-name">Arctic Monkeys</span>
+        <span class="artist-title">Artist</span>
+      </div>
+    </div>
+
+    <div class="row album">
+      <div class="column">
+        <img class="img-album" src="../../../assets/jpg/album/album_artaud.jpg" alt="">
+      </div>
+      <div class="column column-album">
+        <span class="album-name">Artaud</span>
+        <span class="album-title">Album · Pescado Rabioso</span>
+      </div>
+    </div>
   </div>
 </div>

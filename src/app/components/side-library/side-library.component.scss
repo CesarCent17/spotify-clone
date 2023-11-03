@@ -65,3 +65,151 @@ svg path {
 .large {
   flex: 7;
 }
+
+.filter{
+ display: flex;
+ flex-direction: row;
+}
+
+.button-filter{
+  font-family: 'SF Pro Display', sans-serif;
+  font-weight: 400;
+  font-size: 0.9rem;
+  height: 2.1rem;
+  width: 4rem;
+  border-radius: 1.1rem;
+  color: #ffffff;
+  cursor: pointer;
+  background-color: #232323;
+  border: none;
+  transition: background-color 0.3s;
+}
+
+.lists{
+  margin-left: 1rem;
+}
+
+.artists{
+  margin-left: 0.5rem;
+}
+
+.albums{
+  margin-left: 0.5rem;
+}
+
+.button-filter:hover{
+  background-color: #333333;
+}
+
+.search{
+  margin-top: 0.7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.column-search-svg{
+  margin-left: 1rem;
+  flex: 7;
+}
+
+.column-recent{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  svg {
+    transition: fill-opacity 0.3s;
+  }
+  margin-right: 1rem;
+}
+
+.column-recent:hover{
+  color: white;
+  svg path{
+    fill-opacity: 1;
+  }
+}
+
+.search-svg svg {
+  transition: fill-opacity 0.3s;
+  cursor: pointer;
+}
+
+.search-svg svg :hover{
+    fill-opacity: 1;
+}
+
+.artist{
+  transition: background-color 0.3s;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 4rem;
+  cursor: pointer;
+  .img-artist{
+    height: 3rem;
+    width: auto;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+  .column-artist{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.8rem;
+    .artist-name{
+      font-weight: 400;
+    }
+    .artist-title{
+      margin-top: 0.2rem;
+      color: #7f7f7f;
+      font-size: 0.9rem;
+      font-weight: 400;
+    }
+  }
+}
+
+.artist:hover{
+background-color: #232323;
+}
+
+
+.album{
+  transition: background-color 0.3s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 4rem;
+  cursor: pointer;
+  .img-album{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+  .column-album{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.8rem;
+    .album-name{
+      font-weight: 400;
+    }
+    .album-title{
+      margin-top: 0.2rem;
+      color: #7f7f7f;
+      font-size: 0.9rem;
+      font-weight: 400;
+    }
+  }
+}
+
+.album:hover{
+  background-color: #232323;
+  }
